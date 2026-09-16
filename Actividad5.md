@@ -172,3 +172,28 @@
 - **3(cos 180° + i sin 180°)**
 - **3(cos 240° + i sin 240°)**
 - **3(cos 300° + i sin 300°)**
+
+---
+
+## Ejemplos a Mano
+
+<img width="472" height="633" alt="image" src="https://github.com/user-attachments/assets/8f7247ff-963e-4034-9bb8-d43cbc9421cc" />
+
+<img width="462" height="625" alt="image" src="https://github.com/user-attachments/assets/159456c7-373a-4f56-a46a-941ae59ffcf3" />
+
+<img width="508" height="636" alt="image" src="https://github.com/user-attachments/assets/d094a95f-75fc-44e7-8aa2-af5ca588ae7a" />
+
+<img width="442" height="593" alt="image" src="https://github.com/user-attachments/assets/c4f2bad9-e14e-4cb6-9a0c-1a815f6a2275" />
+
+<img width="496" height="650" alt="image" src="https://github.com/user-attachments/assets/87de3f54-5fb6-4e82-98de-8c8773bbe231" />
+
+<img width="506" height="660" alt="image" src="https://github.com/user-attachments/assets/beca610b-89be-4277-aa1d-a3e55d4a1ef0" />
+
+<img width="514" height="505" alt="image" src="https://github.com/user-attachments/assets/e1508508-0730-485f-8a9f-389833c15f16" />
+
+
+
+
+
+
+
