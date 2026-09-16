@@ -1,10 +1,10 @@
-# Números Complejos — Problemas y Respuestas
+# Números Complejos- Actividad 5#
 
 ## Ubica los siguientes números complejos en el plano
 
 **19) -2 + 3i**
 
-![19](punto_19.PNG)
+![19](img/punto_19.PNG)
 
 **20) 1 - 2i**
 
