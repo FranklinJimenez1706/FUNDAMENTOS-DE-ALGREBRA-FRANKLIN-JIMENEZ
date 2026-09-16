@@ -108,31 +108,31 @@
 
 ## Convierte los siguientes números complejos a su forma polar
 
-55) 6 - 8i = **10(cos 306.87° + i sin 306.87°)**
+55) 6 - 8i =  **10(cos 306.87° + i sin 306.87°)**
 
 56) 5√2 + 5√2·i = **10(cos 45° + i sin 45°)**
 
-57) 2 - 2√3·i = **4(cos 300° + i sin 300°)**
+57) 2 - 2√3·i =  **4(cos 300° + i sin 300°)**
 
-58) (3√3)/2 - (3i)/2 = **3(cos 330° + i sin 330°)**
+58) (3√3)/2 - (3i)/2 =  **3(cos 330° + i sin 330°)**
 
-59) -2 = **2(cos 180° + i sin 180°)**
+59) -2 =  **2(cos 180° + i sin 180°)**
 
-60) -7i = **7(cos 270° + i sin 270°)**
+60) -7i =  **7(cos 270° + i sin 270°)**
 
 ---
 
 ## Convierte los números complejos de su forma polar a su forma rectangular
 
-61) cos 30 + i sin 30 = **√3/2 + 1/2 i**
+61) cos 30 + i sin 30 =  **√3/2 + 1/2 i**
 
-62) 2(cos 60 + i sin 60) = **1 + √3 i**
+62) 2(cos 60 + i sin 60) =  **1 + √3 i**
 
-63) 1.5(cos 90 + i sin 90) = **1.5i**
+63) 1.5(cos 90 + i sin 90) =  **1.5i**
 
 64) 2.5(cos 120 + i sin 120) = **-1.25 + 1.25√3 i**
 
-65) 4(cos 135 + i sin 135) = **-2√2 + 2√2 i**
+65) 4(cos 135 + i sin 135) =  **-2√2 + 2√2 i**
 
 66) 3(cos 180 + i sin 180) = **-3**
 
