@@ -1,4 +1,3 @@
-# Ejercicios 115–150: Resultados
 
 ## Suma y resta de polinomios
 
