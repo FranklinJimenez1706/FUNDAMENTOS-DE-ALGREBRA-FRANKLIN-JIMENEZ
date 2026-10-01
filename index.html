@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Matemático Interactivo</title>
+<style>
+ :root {
+  --azul: #e1e4e6;
+  --azul-claro: #2973b9;
+  --fondo: #163153;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 0 16px;
+  color: #222;
+  background: var(--fondo);
+  animation: aparecer 0.8s ease;
+}
+
+h1 {
+  color: var(--azul);
+  border-bottom: 3px solid var(--azul-claro);
+  padding-bottom: 8px;
+  text-align: left;
+  animation: bajar 0.7s ease;
+}
+
+
+p {
+  font-size: 16px;
+  cursor: pointer;
+  background: white;
+  padding: 12px 16px;
+  border-left: 5px solid var(--azul-claro);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+}
+p:hover {
+  transform: translateX(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #eaf3fb;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e3e8ee;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+th {
+  background: var(--azul-claro);
+  color: white;
+}
+tr:hover td { background: #eaf3fb; }
+
+
+ul, ol {
+  background: white;
+  padding: 15px 30px 15px 45px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  animation: aparecer 0.5s ease;
+}
+li {
+  padding: 6px 0;
+  transition: transform 0.2s, color 0.2s;
+}
+li:hover {
+  transform: translateX(8px);
+  color: var(--azul-claro);
+}
+
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(15px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes bajar {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+ul, ol {
+  overflow: hidden;
+  max-height: 500px;
+  opacity: 1;
+  transition: max-height 0.5s ease, opacity 0.4s ease,
+              padding 0.5s ease, margin 0.5s ease;
+}
+
+.oculto {
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0;
+  border-width: 0;
+}
+
+
+h1 {
+  transition: color 0.4s ease, letter-spacing 0.4s ease;
+}
+h1.cambio-color {
+  color: #c0392b;
+  letter-spacing: 2px;
+}
+
+
+.resaltado {
+  background: #a1c1db !important;
+  color: #222;
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+</style>
+</head>
+<body>
+ <h1 id="titulo" onclick="cambiarColorTitulo()">Blog Matemático Interactivo</h1>
+<p onclick="alternarLista('conceptos')">
+   Conceptos Básicos (Haz clic aquí para mostrar u ocultar la lista)
+</p>
+  <ul id="conceptos">
+    <li onclick="resaltarElemento(this)">Álgebra: Manipulación de símbolos y ecuaciones.</li>
+    <li onclick="resaltarElemento(this)">Geometría: Estudio de las propiedades de figuras y espacios.</li>
+    <li onclick="resaltarElemento(this)">Cálculo: Análisis del cambio y del movimiento.</li>
+    <li onclick="resaltarElemento(this)">Estadística: Análisis y tratamiento de datos.</li>
+  </ul>
+<p>Tabla de Fórmulas (Haz clic en cualquier celda para cambiar su color)</p>
+<table>
+  <tr>
+    <th>Tema</th>
+    <th>Fórmula</th>
+  </tr>
+  <tr>
+    <td onclick="resaltarElemento(this)">Área del triángulo</td>
+    <td onclick="resaltarElemento(this)">Base por altura dividido entre 2</td>
+  </tr>
+  <tr>
+    <td onclick="resaltarElemento(this)">Teorema de Pitágoras</td>
+    <td onclick="resaltarElemento(this)">a elevado al cuadrado más b elevado al cuadrado igual a c elevado al cuadrado</td>
+  </tr>
+  <tr>
+    <td onclick="resaltarElemento(this)">Perímetro del círculo</td>
+    <td onclick="resaltarElemento(this)">2 por Pi por radio</td>
+  </tr>
+</table>
+        <p onclick="alternarLista('pasos')">
+Pasos para resolver un problema 
+</p>
+<ol id="pasos">
+  <li onclick="resaltarElemento(this)">Comprender el problema planteado.</li>
+  <li onclick="resaltarElemento(this)">Trazar un plan o seleccionar la fórmula.</li>
+  <li onclick="resaltarElemento(this)">Ejecutar las operaciones requeridas.</li>
+  <li onclick="resaltarElemento(this)">Revisar y verificar la solución.</li>
+</ol>
+
+
+<script>
+
+    function cambiarColorTitulo() {
+ var titulo = document.getElementById('titulo');
+ titulo.classList.toggle('cambio-color');
+ }
+ function alternarLista(id) {
+ var lista = document.getElementById(id);
+  lista.classList.toggle('oculto');
+ }
+ function resaltarElemento(elemento) {
+ elemento.classList.toggle('resaltado');
+ }
+
+</script>
+</body>
+</html>
