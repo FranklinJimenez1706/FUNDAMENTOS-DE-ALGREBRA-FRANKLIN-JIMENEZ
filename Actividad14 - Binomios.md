@@ -1,4 +1,4 @@
-# Resuelve los siguientes binomios
+# Binomios 
 
 1) (r − 5)² = r² − 10r + 25
 2) (7 + 3r)² = 9r² + 42r + 49
