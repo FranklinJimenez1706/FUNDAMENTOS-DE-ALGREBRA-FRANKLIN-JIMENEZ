@@ -1,4 +1,4 @@
-# Factoriza los siguientes polinomios a su mínima expresión
+# Factorizacion de trinomios
 
 | # | Ejercicio | Respuesta |
 |---|-----------|-----------|
