@@ -1,7 +1,7 @@
-# Operaciones con matrices
 
-> Notación: cada matriz va entre corchetes y las filas se separan con `;`.
-> Ejemplo: `[1 2; 3 4]` es la matriz con filas (1, 2) y (3, 4).
+*Operaciones*
+**Esta separado asi porque no se porque no lo lee gisthub con otro formato*
+
 
 **1)**
 ```
