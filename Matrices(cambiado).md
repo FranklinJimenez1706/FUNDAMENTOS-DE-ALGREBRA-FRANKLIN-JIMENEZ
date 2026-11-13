@@ -1,6 +1,8 @@
 
 *Operaciones*
-**Esta separado asi porque no se porque no lo lee gisthub con otro formato*
+**Esta separado asi porque no se porque no lo lee gisthub con otro formato**
+
+**Le tuve que pedir a la IA que me lo cambie porqu eno sabia como**
 
 
 **1)**
